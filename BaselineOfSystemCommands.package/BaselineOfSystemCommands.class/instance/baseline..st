@@ -2,6 +2,7 @@ baselines
 baseline: spec
    <baseline>
 
+	spec for: #'common' do: [
 		spec baseline: 'Commander' with: [
 				spec repository: 'github://dionisiydk/Commander:v0.2.x' ].
 		spec 
@@ -16,4 +17,5 @@ baseline: spec
 			package: #'SystemCommands-SourceCodeCommands' with: [
 				spec requires: #('Commander' ). ];
 			package: #'SystemCommands-VariableCommands' with: [
-				spec requires: #('Commander' ). ]. 
+				spec requires: #('Commander' ). ]
+	]
