@@ -2,10 +2,8 @@ baselines
 baseline: spec
    <baseline>
 
-		spec project: 'Commander' with: [
-				spec
-					baseline: #'Commander';
-					repository: 'github://dionisiydk/Commander:v0.2.x' ].
+		spec baseline: 'Commander' with: [
+				spec repository: 'github://dionisiydk/Commander:v0.2.x' ].
 		spec 
 			package: #'SystemCommands-ClassCommands' with: [
 				spec requires: #('Commander' ). ];
