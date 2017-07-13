@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DenisKudryashov 4/18/2017 13:51",
+	"super" : "Object",
+	"category" : "SystemCommands-MessageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "SycMessageOriginHack",
+	"type" : "normal"
+}

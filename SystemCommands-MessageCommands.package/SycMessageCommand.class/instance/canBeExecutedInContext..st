@@ -1,0 +1,3 @@
+testing
+canBeExecutedInContext: aToolContext
+	^aToolContext isMessageSelected | aToolContext isMethodSelected

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-VariableCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newName",
+		"variable"
+	],
+	"name" : "SycRenameVariableCommand",
+	"type" : "normal"
+}

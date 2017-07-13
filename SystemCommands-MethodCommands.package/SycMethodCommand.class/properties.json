@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-MethodCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"methods"
+	],
+	"name" : "SycMethodCommand",
+	"type" : "normal"
+}

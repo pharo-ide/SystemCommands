@@ -1,0 +1,3 @@
+execution
+execute
+	Smalltalk tools versionBrowser browseVersionsForMethod: method

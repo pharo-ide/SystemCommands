@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SycPackageCommand",
+	"category" : "SystemCommands-PackageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycRemovePackageCommand",
+	"type" : "normal"
+}

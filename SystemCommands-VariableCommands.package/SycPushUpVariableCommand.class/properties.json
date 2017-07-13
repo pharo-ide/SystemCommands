@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SycVariableCommand",
+	"category" : "SystemCommands-VariableCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycPushUpVariableCommand",
+	"type" : "normal"
+}

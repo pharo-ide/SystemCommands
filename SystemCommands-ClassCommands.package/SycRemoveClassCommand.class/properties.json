@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SycClassCommand",
+	"category" : "SystemCommands-ClassCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycRemoveClassCommand",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-PackageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"package",
+		"newName"
+	],
+	"name" : "SycRenamePackageCommand",
+	"type" : "normal"
+}

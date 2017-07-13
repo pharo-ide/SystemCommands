@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SystemCommands-MessageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selector",
+		"argumentNames",
+		"contextUser"
+	],
+	"name" : "SycMessageDescription",
+	"type" : "normal"
+}

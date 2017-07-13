@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-PackageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"systemEnvironment",
+		"packageName",
+		"resultPackage"
+	],
+	"name" : "SycAddNewPackageCommand",
+	"type" : "normal"
+}

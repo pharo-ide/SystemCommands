@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-ClassCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"originalClass",
+		"newClassName",
+		"resultClass"
+	],
+	"name" : "SycCopyClassCommand",
+	"type" : "normal"
+}

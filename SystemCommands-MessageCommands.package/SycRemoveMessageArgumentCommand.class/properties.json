@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SycChangeMessageSignatureCommand",
+	"category" : "SystemCommands-MessageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"argumentName"
+	],
+	"name" : "SycRemoveMessageArgumentCommand",
+	"type" : "normal"
+}

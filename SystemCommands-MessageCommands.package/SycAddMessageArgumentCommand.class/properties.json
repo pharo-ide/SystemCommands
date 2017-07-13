@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SycChangeMessageSignatureCommand",
+	"category" : "SystemCommands-MessageCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newSelector",
+		"argumentDefaultValue"
+	],
+	"name" : "SycAddMessageArgumentCommand",
+	"type" : "normal"
+}

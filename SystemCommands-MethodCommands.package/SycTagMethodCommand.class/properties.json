@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SycMethodCommand",
+	"category" : "SystemCommands-MethodCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetTag"
+	],
+	"name" : "SycTagMethodCommand",
+	"type" : "normal"
+}

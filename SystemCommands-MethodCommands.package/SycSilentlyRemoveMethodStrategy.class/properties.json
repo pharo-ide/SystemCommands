@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SycRemoveMethodStrategy",
+	"category" : "SystemCommands-MethodCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycSilentlyRemoveMethodStrategy",
+	"type" : "normal"
+}

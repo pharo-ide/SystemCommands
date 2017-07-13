@@ -1,0 +1,3 @@
+*SystemCommands-VariableCommands
+classVariableAnalog
+	^RBRenameClassVariableRefactoring 

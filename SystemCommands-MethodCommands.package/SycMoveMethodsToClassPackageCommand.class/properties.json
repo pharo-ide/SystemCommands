@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SycMethodRepackagingCommand",
+	"category" : "SystemCommands-MethodCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycMoveMethodsToClassPackageCommand",
+	"type" : "normal"
+}

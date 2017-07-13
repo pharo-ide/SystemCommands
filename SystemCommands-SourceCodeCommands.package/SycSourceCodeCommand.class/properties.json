@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"method",
+		"sourceNode"
+	],
+	"name" : "SycSourceCodeCommand",
+	"type" : "normal"
+}
