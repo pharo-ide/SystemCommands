@@ -2,7 +2,7 @@ execution
 prepareFullExecutionInContext: aToolContext
 	super prepareFullExecutionInContext: aToolContext.
 		
-	systemEnvironment := aToolContext system.		
+	systemEnvironment := aToolContext systemEnvironment.		
 	packageName := ''.
 	aToolContext isPackageSelected ifTrue: [ 
 		packageName := aToolContext lastSelectedPackage name].
