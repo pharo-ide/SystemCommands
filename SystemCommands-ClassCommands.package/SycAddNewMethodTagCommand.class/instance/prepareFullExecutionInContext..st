@@ -5,4 +5,4 @@ prepareFullExecutionInContext: aToolContext
 	tagName := aToolContext requestSingleMethodTag: 'New tag name'.
 	
 	targetClass := self requestClassInContext: aToolContext.
-	targetClass := aToolContext resolveCurrentClassSideOf: targetClass
+	targetClass := aToolContext currentMetaLevelOf: targetClass
