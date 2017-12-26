@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newName"
+		"newClassName"
 	],
-	"name" : "SycRenameClassCommand",
+	"name" : "SycNewClassCreationCommand",
 	"type" : "normal"
 }
