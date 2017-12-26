@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SycSingleClassCommand",
+	"super" : "CmdCommand",
 	"category" : "SystemCommands-ClassCommands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newName"
+		"targetClass"
 	],
-	"name" : "SycRenameClassCommand",
+	"name" : "SycSingleClassCommand",
 	"type" : "normal"
 }

@@ -1,3 +1,3 @@
 accessing
 defaultMenuItemName
-	^'Classify methods'
+	^'Insert superclass'
