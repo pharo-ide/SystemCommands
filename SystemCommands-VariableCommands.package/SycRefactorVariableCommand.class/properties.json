@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SycRefactorVariableCommand",
+	"super" : "SycVariableCommand",
 	"category" : "SystemCommands-VariableCommands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SycRemoveVariableCommand",
+	"name" : "SycRefactorVariableCommand",
 	"type" : "normal"
 }

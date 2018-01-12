@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SycVariableCommand",
+	"super" : "SycRefactorVariableCommand",
 	"category" : "SystemCommands-VariableCommands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
