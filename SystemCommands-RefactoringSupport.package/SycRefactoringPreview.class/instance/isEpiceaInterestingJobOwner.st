@@ -1,0 +1,4 @@
+epicea support
+isEpiceaInterestingJobOwner
+
+	^ true
