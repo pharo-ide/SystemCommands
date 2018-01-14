@@ -7,4 +7,5 @@ updateChanges
 		compositeRefactoryChange.
 	changes do: [ :each | aCompositeChange addChange: each ].
 
-	changesTree roots: (aCompositeChange whatToDisplayIn: self)
+	changesTree roots: (aCompositeChange whatToDisplayIn: self).
+	changesTree selectAll
