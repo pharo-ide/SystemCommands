@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"originalMessage",
-		"renamingTool"
+		"originalMessage"
 	],
 	"name" : "SycChangeMessageSignatureCommand",
 	"type" : "normal"
