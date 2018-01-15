@@ -1,5 +1,3 @@
 execution
 resultMessageSelector
-	^self createRefactoring
-		primitiveExecute;
-		newSelector
+	self subclassResponsibility 
