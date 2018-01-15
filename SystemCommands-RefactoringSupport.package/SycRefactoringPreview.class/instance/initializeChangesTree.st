@@ -5,7 +5,7 @@ initializeChangesTree
 		removeOnlyLastSelected: true;
 		autoMultiSelection: true;
 		rootNodeHolder: [ :item | 
-					TreeNodePresenter new
+					TreeNodeModel new
 						content: item;
 						hasContentToShow: true;
 						children: [ changesTree childrenFor: item ] ];
