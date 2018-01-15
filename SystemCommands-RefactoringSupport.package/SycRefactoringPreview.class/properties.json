@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "SystemCommands-RefactoringSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"command",
+		"scopes",
+		"textArea",
+		"changesTree",
+		"changes",
+		"scopeDropList"
+	],
+	"name" : "SycRefactoringPreview",
+	"type" : "normal"
+}

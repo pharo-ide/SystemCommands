@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "DialogWindow",
+	"category" : "SystemCommands-RefactoringSupport",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"argumentIndex",
+		"labelMorph",
+		"methodName",
+		"selectorField"
+	],
+	"name" : "SycMethodNameEditor",
+	"type" : "normal"
+}

@@ -2,7 +2,7 @@ operations
 requestNewSignature
 	| methodName dialog |
 	methodName := RBMethodName selector: selector arguments: argumentNames copy.
-	dialog := MethodNameEditor openOn: methodName.
+	dialog := SycMethodNameEditor openOn: methodName.
 	dialog cancelled ifTrue: [  CmdCommandAborted signal ].
 	
 	selector = methodName selector & (argumentNames = methodName arguments)
