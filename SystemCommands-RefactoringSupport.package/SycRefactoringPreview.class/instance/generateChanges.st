@@ -5,5 +5,5 @@ generateChanges
 	changes := command asRefactorings.
 	rbEnvironment := self activeRBEnvironment.
 	changes do: [ :each | 
-		each model: rbEnvironment.
+		each model environment: rbEnvironment.
 		each primitiveExecute ]
