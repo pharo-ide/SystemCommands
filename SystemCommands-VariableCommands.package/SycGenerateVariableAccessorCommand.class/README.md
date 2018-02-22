@@ -1,0 +1,1 @@
+I am a command to generate accessors for given variables

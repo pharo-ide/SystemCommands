@@ -1,0 +1,1 @@
+I am a command to remove given variables
