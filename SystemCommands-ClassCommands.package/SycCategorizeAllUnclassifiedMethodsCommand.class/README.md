@@ -1,0 +1,1 @@
+I am a command to categorize all unclassified methods of given classes

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DenisKudryashov 2/22/2018 18:29",
 	"super" : "CmdCommand",
 	"category" : "SystemCommands-MethodCommands",
 	"classinstvars" : [ ],
