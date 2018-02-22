@@ -1,0 +1,1 @@
+I am a command to remove all given classes

@@ -1,0 +1,1 @@
+I am a command to generate accessors for all inst vars of given classes
