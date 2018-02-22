@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DenisKudryashov 2/22/2018 18:01",
 	"super" : "SycChangeMessageSignatureCommand",
 	"category" : "SystemCommands-MessageCommands",
 	"classinstvars" : [ ],
