@@ -1,3 +1,3 @@
 accessing
 defaultMenuItemName
-	^'Rename'
+	^'Rename temp'
