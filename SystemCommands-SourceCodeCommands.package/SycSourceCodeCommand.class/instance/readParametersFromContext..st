@@ -1,6 +1,6 @@
 execution
-prepareFullExecutionInContext: aSourceCodeContext
-	super prepareFullExecutionInContext: aSourceCodeContext.
+readParametersFromContext: aSourceCodeContext
+	super readParametersFromContext: aSourceCodeContext.
 	
 	method := aSourceCodeContext lastSelectedMethod.
 	sourceNode := aSourceCodeContext lastSelectedSourceNode
