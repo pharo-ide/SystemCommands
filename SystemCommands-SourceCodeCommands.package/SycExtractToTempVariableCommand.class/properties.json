@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SycSourceCodeCommand",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tempName"
+	],
+	"name" : "SycExtractToTempVariableCommand",
+	"type" : "normal"
+}
