@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "DenisKudryashov 2/22/2018 18:38",
+	"commentStamp" : "",
 	"super" : "SycSourceCodeCommand",
 	"category" : "SystemCommands-SourceCodeCommands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"newName"
-	],
-	"name" : "SycRenameTempVariableCommand",
+	"instvars" : [ ],
+	"name" : "SycInlineTempCommand",
 	"type" : "normal"
 }

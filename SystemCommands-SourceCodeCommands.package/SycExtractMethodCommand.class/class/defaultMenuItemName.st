@@ -1,3 +1,3 @@
 accessing
 defaultMenuItemName
-	^ 'Extract to temp'
+	^ 'Extract method'

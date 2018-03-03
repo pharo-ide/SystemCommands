@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"tempName"
-	],
-	"name" : "SycExtractToTempVariableCommand",
+	"instvars" : [ ],
+	"name" : "SycInlineMethodCommand",
 	"type" : "normal"
 }
