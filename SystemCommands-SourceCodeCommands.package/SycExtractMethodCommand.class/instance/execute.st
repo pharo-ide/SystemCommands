@@ -2,7 +2,7 @@ execution
 execute
 	| refactoring dialog |
 	refactoring := RBExtractMethodRefactoring	
-		extract: sourceNode sourceInterval
+		extract: selectedTextInterval
 		from: method selector
 		in: method origin.
 	refactoring setOption: #methodName toUse:  [ :ref :methodName |
