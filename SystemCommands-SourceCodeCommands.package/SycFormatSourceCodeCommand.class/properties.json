@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceCodeEditor"
+	],
+	"name" : "SycFormatSourceCodeCommand",
+	"type" : "normal"
+}
