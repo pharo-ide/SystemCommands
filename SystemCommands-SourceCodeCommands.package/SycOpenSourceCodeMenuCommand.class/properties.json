@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdOpenContextMenuCommand",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycOpenSourceCodeMenuCommand",
+	"type" : "normal"
+}
