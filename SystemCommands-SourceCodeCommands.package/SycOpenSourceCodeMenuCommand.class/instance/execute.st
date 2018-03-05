@@ -1,6 +1,7 @@
 execution
 execute
 
-	context showSourceNode.
+	context selectedTextInterval ifEmpty: [ 
+		context showSourceNode].
 	
 	super execute
