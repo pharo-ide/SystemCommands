@@ -1,0 +1,1 @@
+I am a command to open browser on given class
