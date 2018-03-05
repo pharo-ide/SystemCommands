@@ -1,8 +1,10 @@
 execution
 execute
-	| refactoring dialog |
+	| refactoring dialog selectedInterval |
+	selectedInterval := selectedTextInterval ifEmpty: [ sourceNode sourceInterval ].
+	
 	refactoring := RBExtractMethodRefactoring	
-		extract: selectedTextInterval
+		extract: selectedInterval
 		from: method selector
 		in: method origin.
 	refactoring setOption: #methodName toUse:  [ :ref :methodName |
