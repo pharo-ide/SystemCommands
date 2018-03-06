@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DenisKudryashov 3/4/2018 20:39",
+	"super" : "CmdCommand",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceCodeEditor"
+	],
+	"name" : "SycFormatSourceCodeCommand",
+	"type" : "normal"
+}

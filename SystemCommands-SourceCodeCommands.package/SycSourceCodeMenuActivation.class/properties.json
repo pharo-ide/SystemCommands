@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DenisKudryashov 3/5/2018 13:55",
+	"super" : "CmdMenuCommandActivationStrategy",
+	"category" : "SystemCommands-SourceCodeCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SycSourceCodeMenuActivation",
+	"type" : "normal"
+}
