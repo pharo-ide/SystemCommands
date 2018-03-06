@@ -1,3 +1,3 @@
 testing
 canBeExecutedInContext: aToolContext
-	^aToolContext isVariableSelected
+	^aToolContext isVariableSelected and: [ aToolContext isGlobalVariableSelected not ]
