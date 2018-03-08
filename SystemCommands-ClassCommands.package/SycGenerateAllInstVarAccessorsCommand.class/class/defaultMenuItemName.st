@@ -1,3 +1,3 @@
 accessing
 defaultMenuItemName
-	^'Generage accessors'
+	^'Generate accessors'
