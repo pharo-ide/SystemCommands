@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BaselineOfSystemCommands",
+	"category" : "BaselineOfSystemCommands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfSystemCommandsFrozen",
+	"type" : "normal"
+}
