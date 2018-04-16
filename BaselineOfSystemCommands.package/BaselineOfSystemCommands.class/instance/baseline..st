@@ -4,7 +4,7 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec baseline: 'Commander' with: [
-				spec repository: 'github://dionisiydk/Commander:v0.6.1' ].
+				spec repository: 'github://dionisiydk/Commander:v0.6.x' ].
 		spec
 			package: #'SystemCommands-RefactoringSupport' with: [
 				spec requires: #('Commander' ). ]; 
