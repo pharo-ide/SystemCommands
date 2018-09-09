@@ -4,7 +4,7 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec baseline: 'Commander' with: [
-				spec repository: 'github://pharo-ide/Commander:v0.6.3' ].
+				spec repository: 'github://pharo-ide/Commander:v0.6.4' ].
 		spec
 			package: #'SystemCommands-RefactoringSupport' with: [
 				spec requires: #('Commander' ). ]; 
