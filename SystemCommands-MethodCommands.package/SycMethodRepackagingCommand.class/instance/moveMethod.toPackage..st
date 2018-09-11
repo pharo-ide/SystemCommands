@@ -9,5 +9,5 @@ moveMethod: aMethod toPackage: aPackage
 	
 	aPackage addMethod: aMethod.	
 	
-	wasExtension ifTrue: [aMethod untagFrom: ('*', existingPackage name) asSymbol].
-	willBeExtension ifTrue: [ aMethod tagWith: ('*', aPackage name) asSymbol]
+	willBeExtension ifTrue: [ aMethod tagWith: ('*', aPackage name) asSymbol].
+	wasExtension ifTrue: [aMethod untagFrom: ('*', existingPackage name) asSymbol]
