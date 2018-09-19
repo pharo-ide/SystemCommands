@@ -1,3 +1,0 @@
-accessing
-defaultMenuItemName
-	^ 'Extract temp'

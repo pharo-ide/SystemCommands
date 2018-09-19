@@ -1,4 +1,0 @@
-execution
-asRefactorings
-	
-	^self createRefactorings: RBRemoveInstanceVariableRefactoring

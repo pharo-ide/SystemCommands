@@ -1,3 +1,0 @@
-execution
-createRefactoring
-	self subclassResponsibility

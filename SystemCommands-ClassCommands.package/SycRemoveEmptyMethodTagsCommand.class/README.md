@@ -1,1 +1,0 @@
-I am a command to clean all unused method tags (empty protocols) of given classes

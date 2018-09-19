@@ -1,1 +1,0 @@
-I am a command to create new subclass og given class (my targetClass)

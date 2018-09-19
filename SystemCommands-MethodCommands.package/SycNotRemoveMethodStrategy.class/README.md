@@ -1,1 +1,0 @@
-I am simple cancel method remove operation by doing nothing

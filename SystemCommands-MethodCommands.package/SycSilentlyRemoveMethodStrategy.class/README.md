@@ -1,1 +1,0 @@
-I am simple perform method remove operation without any extra logic

@@ -1,3 +1,0 @@
-execution
-asRefactorings
-	^{self createRefactoring}
