@@ -1,4 +1,0 @@
-execution
-execute
-	
-	sourceCodeEditor formatSourceCode

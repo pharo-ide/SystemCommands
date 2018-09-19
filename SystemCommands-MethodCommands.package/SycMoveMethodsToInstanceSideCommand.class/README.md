@@ -1,1 +1,0 @@
-I am a command to move method to the instance side of defining class

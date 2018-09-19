@@ -1,1 +1,0 @@
-I am a command to inline selected temp variable (represented by source node)

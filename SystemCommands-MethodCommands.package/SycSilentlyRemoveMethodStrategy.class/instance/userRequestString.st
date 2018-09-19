@@ -1,3 +1,0 @@
-removing
-userRequestString
-	^'Remove it'

@@ -1,3 +1,0 @@
-*SystemCommands-VariableCommands
-classVariableAnalog
-	^RBPullUpClassVariableRefactoring
