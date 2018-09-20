@@ -1,3 +1,0 @@
-accessing
-defaultMenuItemName
-	^ 'Format code'

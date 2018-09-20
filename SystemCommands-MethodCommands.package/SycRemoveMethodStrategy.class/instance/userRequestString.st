@@ -1,3 +1,0 @@
-execution
-userRequestString
-	self subclassResponsibility 

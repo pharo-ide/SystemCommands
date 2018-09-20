@@ -1,3 +1,0 @@
-*SystemCommands-RefactoringSupport
-isComplexRefactoring
-	^false

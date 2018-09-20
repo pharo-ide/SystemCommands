@@ -1,3 +1,0 @@
-accessing
-activeScope
-	^scopeDropList selectedItem
