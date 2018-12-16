@@ -37,10 +37,10 @@ SycTagMethodCommand >> defaultMenuItemName [
 SycTagMethodCommand >> execute [
 	
 	methods do: [ :aMethod | 
-		| oldProtocol |
-		oldProtocol := aMethod protocol.
+		| oldTags |
+		oldTags := aMethod tags.
 		aMethod tagWith: targetTag asSymbol.
-		aMethod untagFrom: oldProtocol ]
+		oldTags do: [:old | aMethod untagFrom: old ]]
 ]
 
 { #category : #execution }
