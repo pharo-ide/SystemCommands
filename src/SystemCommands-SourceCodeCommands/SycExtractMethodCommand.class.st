@@ -28,9 +28,9 @@ SycExtractMethodCommand >> execute [
 	selectedInterval := selectedTextInterval ifEmpty: [ sourceNode sourceInterval ].
 	
 	refactoring := RBExtractMethodRefactoring	
-		extract: selectedInterval
-		from: method selector
-		in: method origin.
+		extract: selectedInterval from: method selector in: method origin.
+	self setUpOptionToUseExistingMethodDuring: refactoring.
+	self setUpOptionToOverrideExistingMethodDuring: refactoring.
 	refactoring setOption: #methodName toUse:  [ :ref :methodName |
 		dialog := SycMethodNameEditor openOn: methodName.
 		dialog cancelled ifTrue: [  CmdCommandAborted signal ].
@@ -44,4 +44,21 @@ SycExtractMethodCommand >> readParametersFromContext: aSourceCodeContext [
 	super readParametersFromContext: aSourceCodeContext.
 	
 	selectedTextInterval := aSourceCodeContext selectedTextInterval
+]
+
+{ #category : #execution }
+SycExtractMethodCommand >> setUpOptionToOverrideExistingMethodDuring: aRefactoring [
+
+	aRefactoring setOption: #alreadyDefined toUse:  [ :ref :class :selector | 
+		ref refactoringWarning: 'Method ', selector printString, ' will override method in ', class name]. 
+]
+
+{ #category : #execution }
+SycExtractMethodCommand >> setUpOptionToUseExistingMethodDuring: aRefactoring [
+
+	aRefactoring setOption: #useExistingMethod toUse:  [ :ref :selector | 
+		UIManager default 
+			confirm: 'Do you want use existing method ', selector printString, '?'
+			label: 'Warninig']. 	
+	
 ]
