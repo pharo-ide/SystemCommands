@@ -36,7 +36,11 @@ SycTagMethodCommand >> defaultMenuItemName [
 { #category : #execution }
 SycTagMethodCommand >> execute [
 	
-	methods do: [ :each | each tagWith: targetTag asSymbol]
+	methods do: [ :aMethod | 
+		| oldTags |
+		oldTags := aMethod tags.
+		aMethod tagWith: targetTag asSymbol.
+		oldTags do: [:old | aMethod untagFrom: old ]]
 ]
 
 { #category : #execution }
