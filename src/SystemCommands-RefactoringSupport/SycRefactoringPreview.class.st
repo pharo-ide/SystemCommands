@@ -165,8 +165,14 @@ SycRefactoringPreview >> command: aCommand [
 SycRefactoringPreview >> generateChanges [
 
 	| rbEnvironment |
+	
+	changes ifNotNil: [ ^ changes ].
+	
 	changes := command asRefactorings.
 	rbEnvironment := self activeRBEnvironment.
+
+	changes do: [ :aChange | self prepareOptions: aChange ].
+
 	changes do: [ :each | 
 		each model environment: rbEnvironment.
 		each primitiveExecute ]
@@ -244,6 +250,13 @@ SycRefactoringPreview >> pickedChanges [
 	| selectedItems |
 	selectedItems := changesTree selectedItems collect: #content.
 	^ changesTree roots select: [ :i | selectedItems includes: i ]
+]
+
+{ #category : #'private - changes' }
+SycRefactoringPreview >> prepareOptions: aRefactoring [ 
+
+	aRefactoring setOption: #openBrowser toUse: [ :aRefactor :anEnvironment |
+		ClyQueryBrowser openOn: (ClyClassReferences toAny: aRefactor classes)]
 ]
 
 { #category : #accessing }
