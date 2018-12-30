@@ -31,9 +31,9 @@ SycRemoveVariableCommand >> isComplexRefactoring [
 
 { #category : #execution }
 SycRemoveVariableCommand >> prepareFullExecutionInContext: aToolContext [
-	| answer |
+	| noUsers |
 	super prepareFullExecutionInContext: aToolContext.
 
-	answer := aToolContext confirmVariableRemoveFor: variables.
-	answer ifFalse: [CmdCommandAborted signal]
+	noUsers := aToolContext confirmUnusedVariables: variables.
+	noUsers ifFalse: [CmdCommandAborted signal]
 ]
