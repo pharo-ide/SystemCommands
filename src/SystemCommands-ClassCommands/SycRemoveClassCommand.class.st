@@ -33,3 +33,12 @@ SycRemoveClassCommand >> execute [
 SycRemoveClassCommand >> isComplexRefactoring [
 	^true
 ]
+
+{ #category : #execution }
+SycRemoveClassCommand >> prepareFullExecutionInContext: aToolContext [
+	| noUsers |
+	super prepareFullExecutionInContext: aToolContext.
+	
+	noUsers := aToolContext confirmUnusedClasses: classes.
+	noUsers ifFalse: [ CmdCommandAborted signal ]
+]

@@ -18,3 +18,12 @@ SycPushDownVariableCommand >> asRefactorings [
 SycPushDownVariableCommand >> defaultMenuItemName [
 	^'Push down'
 ]
+
+{ #category : #execution }
+SycPushDownVariableCommand >> prepareFullExecutionInContext: aToolContext [
+	| noUsers |
+	super prepareFullExecutionInContext: aToolContext.
+	
+	noUsers := aToolContext confirmUnusedVariables: variables.
+	noUsers ifFalse: [ CmdCommandAborted signal ]
+]
