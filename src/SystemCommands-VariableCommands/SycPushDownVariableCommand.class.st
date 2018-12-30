@@ -24,6 +24,6 @@ SycPushDownVariableCommand >> prepareFullExecutionInContext: aToolContext [
 	| noUsers |
 	super prepareFullExecutionInContext: aToolContext.
 	
-	noUsers := aToolContext confirmUnusedVariables: variables.
+	noUsers := aToolContext confirmUnusedVariablesInDefiningClass: variables.
 	noUsers ifFalse: [ CmdCommandAborted signal ]
 ]
