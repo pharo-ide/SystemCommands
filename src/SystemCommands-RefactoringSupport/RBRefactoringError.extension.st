@@ -7,10 +7,12 @@ RBRefactoringError >> notifyUserOfCommand: aCommand [
 	title := self actionBlock isNotNil
 		ifTrue: [ 'Warning' ] ifFalse: [ 'Warning. Want to proceed?' ].
 
-	answer := (UIManager default confirm: self messageText label: title) = true.
+	answer := UIManager default confirm: self messageText label: title. 
 
-	self actionBlock 
-		ifNotNil: [ answer ifTrue: [ self actionBlock value ] ].
-
-	self resume: answer	
+	answer ifTrue: [ 
+		"Existing actionBlock means that there is already defined handled of refactoring error.
+		We should not resume in that case. Otherwise user can resume by his own risk"
+		self actionBlock 
+			ifNil: [ self resume: true ] 
+			ifNotNil: #value]
 ]
