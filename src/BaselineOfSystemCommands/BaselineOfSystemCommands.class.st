@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfSystemCommands,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfSystemCommands'
+	#category : #BaselineOfSystemCommands
 }
 
 { #category : #baselines }
@@ -10,7 +10,7 @@ BaselineOfSystemCommands >> baseline: spec [
 
 	spec for: #'common' do: [
 		spec baseline: 'Commander' with: [
-			spec repository: 'github://pharo-ide/Commander:v0.7.x/src' ].
+			spec repository: 'github://pharo-ide/Commander:v0.7.2/src' ].
 		spec
 			package: #'SystemCommands-RefactoringSupport' with: [
 				spec requires: #('Commander' ). ]; 
