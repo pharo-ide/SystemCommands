@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfSystemCommands,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfSystemCommands'
+	#category : #BaselineOfSystemCommands
 }
 
 { #category : #baselines }
