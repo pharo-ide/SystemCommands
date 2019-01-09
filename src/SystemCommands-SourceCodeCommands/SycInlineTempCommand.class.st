@@ -29,5 +29,6 @@ SycInlineTempCommand >> execute [
 		inline: assignment sourceInterval
 		from: method selector
 		in: method origin.
-	refactoring execute
+
+	self executeRefactoring: refactoring.
 ]

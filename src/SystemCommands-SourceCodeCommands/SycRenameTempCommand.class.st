@@ -43,7 +43,7 @@ SycRenameTempCommand >> execute [
 		in: method origin
 		selector: method selector.
 	
-	refactoring execute
+	self executeRefactoring: refactoring.
 ]
 
 { #category : #execution }

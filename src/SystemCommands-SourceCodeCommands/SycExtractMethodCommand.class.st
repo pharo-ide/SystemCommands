@@ -36,7 +36,7 @@ SycExtractMethodCommand >> execute [
 		dialog cancelled ifTrue: [  CmdCommandAborted signal ].
 		methodName].
 	
-	refactoring execute
+	self executeRefactoring: refactoring.
 ]
 
 { #category : #execution }

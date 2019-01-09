@@ -44,7 +44,7 @@ SycExtractTempCommand >> execute [
 		from: method selector
 		in: method origin.
 	
-	refactoring execute
+	self executeRefactoring: refactoring.
 ]
 
 { #category : #execution }
