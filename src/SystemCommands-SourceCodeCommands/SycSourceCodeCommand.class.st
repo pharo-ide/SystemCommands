@@ -24,6 +24,13 @@ SycSourceCodeCommand class >> method: aMethod node: aRBProgramNode [
 		sourceNode: aRBProgramNode
 ]
 
+{ #category : #private }
+SycSourceCodeCommand >> executeRefactoring: refactoring [
+
+	NautilusRefactoring new refactoringOptions: refactoring.
+	[ refactoring execute ] on: RBRefactoringError do: [ :e | UIManager default alert: e messageText ].
+]
+
 { #category : #accessing }
 SycSourceCodeCommand >> method [
 	^ method
