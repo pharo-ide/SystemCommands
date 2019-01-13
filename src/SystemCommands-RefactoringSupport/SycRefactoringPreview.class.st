@@ -259,8 +259,7 @@ SycRefactoringPreview >> scopes [
 { #category : #accessing }
 SycRefactoringPreview >> scopes: anObject [
 	scopes := anObject.
-	scopeDropList items: scopes.
-	scopeDropList setIndex: 1
+	scopeDropList items: scopes "It also sets up first item as selection"
 ]
 
 { #category : #initialization }
