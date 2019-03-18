@@ -26,6 +26,11 @@ SycRefactorVariableCommand class >> canBeExecutedInContext: aToolContext [
 		and: [ aToolContext isGlobalVariableSelected not ]
 ]
 
+{ #category : #testing }
+SycRefactorVariableCommand class >> isAbstract [
+	^self = SycRefactorVariableCommand 
+]
+
 { #category : #execution }
 SycRefactorVariableCommand >> createRefactorings: variableRefactoringClass [
 	^self createRefactorings: variableRefactoringClass using: [ ]

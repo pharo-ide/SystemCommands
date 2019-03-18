@@ -20,6 +20,11 @@ SycPackageCommand class >> canBeExecutedInContext: aToolContext [
 	^aToolContext isPackageSelected
 ]
 
+{ #category : #testing }
+SycPackageCommand class >> isAbstract [
+	^self = SycPackageCommand 
+]
+
 { #category : #accessing }
 SycPackageCommand >> packages [
 	^ packages

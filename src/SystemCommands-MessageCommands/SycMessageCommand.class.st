@@ -34,6 +34,11 @@ SycMessageCommand class >> forMethods: methods [
 	^self for: (methods collect: [:each | SycMessageDescription ofMethod: each])
 ]
 
+{ #category : #testing }
+SycMessageCommand class >> isAbstract [
+	^self = SycMessageCommand
+]
+
 { #category : #accessing }
 SycMessageCommand >> messages [
 	^ messages

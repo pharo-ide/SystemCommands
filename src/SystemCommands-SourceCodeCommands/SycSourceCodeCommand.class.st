@@ -17,6 +17,11 @@ Class {
 	#category : #'SystemCommands-SourceCodeCommands'
 }
 
+{ #category : #testing }
+SycSourceCodeCommand class >> isAbstract [
+	^self = SycSourceCodeCommand 
+]
+
 { #category : #'instance creation' }
 SycSourceCodeCommand class >> method: aMethod node: aRBProgramNode [
 	^self new 

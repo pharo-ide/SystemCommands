@@ -28,6 +28,11 @@ SycChangeMessageSignatureCommand class >> canBeExecutedInContext: aToolContext [
 	^aToolContext isMessageSelected | aToolContext isMethodSelected
 ]
 
+{ #category : #testing }
+SycChangeMessageSignatureCommand class >> isAbstract [
+	^self = SycChangeMessageSignatureCommand 
+]
+
 { #category : #execution }
 SycChangeMessageSignatureCommand >> applyResultInContext: aToolContext [
 	super applyResultInContext: aToolContext.

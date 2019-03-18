@@ -16,6 +16,11 @@ Class {
 	#category : #'SystemCommands-ClassCommands'
 }
 
+{ #category : #testing }
+SycNewClassCreationCommand class >> isAbstract [
+	^self = SycNewClassCreationCommand 
+]
+
 { #category : #execution }
 SycNewClassCreationCommand >> applyResultInContext: aToolContext [
 	

@@ -26,6 +26,11 @@ SycMethodCommand class >> for: methods [
 		methods: methods
 ]
 
+{ #category : #testing }
+SycMethodCommand class >> isAbstract [
+	^self = SycMethodCommand 
+]
+
 { #category : #accessing }
 SycMethodCommand >> methods [
 	^ methods

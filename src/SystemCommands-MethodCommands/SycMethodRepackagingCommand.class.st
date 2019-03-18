@@ -13,6 +13,11 @@ Class {
 	#category : #'SystemCommands-MethodCommands'
 }
 
+{ #category : #testing }
+SycMethodRepackagingCommand class >> isAbstract [
+	^self = SycMethodRepackagingCommand 
+]
+
 { #category : #execution }
 SycMethodRepackagingCommand >> moveMethod: aMethod toPackage: aPackage [
 	| existingPackage wasExtension willBeExtension |

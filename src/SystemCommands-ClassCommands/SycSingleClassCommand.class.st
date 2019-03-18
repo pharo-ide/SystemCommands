@@ -20,6 +20,11 @@ SycSingleClassCommand class >> canBeExecutedInContext: aToolContext [
 	^aToolContext isClassSelected 
 ]
 
+{ #category : #testing }
+SycSingleClassCommand class >> isAbstract [
+	^self = SycSingleClassCommand 
+]
+
 { #category : #execution }
 SycSingleClassCommand >> prepareFullExecutionInContext: aToolContext [
 	super prepareFullExecutionInContext: aToolContext.
