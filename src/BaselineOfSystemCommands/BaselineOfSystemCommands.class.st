@@ -10,7 +10,7 @@ BaselineOfSystemCommands >> baseline: spec [
 
 	spec for: #'common' do: [
 		spec baseline: 'Commander' with: [
-			spec repository: 'github://pharo-ide/Commander:v0.8.x/src' ].
+			spec repository: 'github://pharo-ide/Commander:v0.8.0/src' ].
 		spec
 			package: #'SystemCommands-RefactoringSupport' with: [
 				spec requires: #('Commander' ). ]; 
