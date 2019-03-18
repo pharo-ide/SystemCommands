@@ -20,6 +20,11 @@ SycClassCommand class >> canBeExecutedInContext: aToolContext [
 	^aToolContext isClassSelected
 ]
 
+{ #category : #testing }
+SycClassCommand class >> isAbstract [
+	^self = SycClassCommand 
+]
+
 { #category : #accessing }
 SycClassCommand >> classes [
 	^ classes
