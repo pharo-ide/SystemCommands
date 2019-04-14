@@ -94,7 +94,7 @@ SycRefactoringPreview >> accept [
 	[ self pickedChanges do: [ :change | RBRefactoryChangeManager instance performChange: change ] ] asJob
 		title: 'Refactoring';
 		run.
-	window value delete
+	self window delete
 ]
 
 { #category : #private }
@@ -133,7 +133,7 @@ SycRefactoringPreview >> buildDiffFor: aChange [
 
 { #category : #controlling }
 SycRefactoringPreview >> cancel [
-	window value delete
+	self window delete
 ]
 
 { #category : #accessing }
